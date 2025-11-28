@@ -1099,6 +1099,14 @@ Observing the vref curver in yellow, it can be seen that 1.1us is taken for it t
 
 The layout of the submodules is shown below.
 
+Command to open magic:
+
+```
+$magic -T {tech file path}
+$magic -T /opt/pdk/sky130A/libs.tech/magic/sky130A.tech => this will open magic
+```
+
+
 ## Resistor bank
 
 <p align="center">
@@ -1137,24 +1145,45 @@ The layout of the submodules is shown below.
 
 Steps to perform extraction for individual components:
 
+1. From Options select Cell Manager.
+
 <p align="center">
   <img src="resources/53.png" width="600">
 </p>
 <p style="text-align:center; font-size:14px; color:#777;">
-  Figure 53: Commands
+  Figure 53: Magic
 </p>
 
-
-Example for Nfet.spice
+2. In the gui perform extraction for all the sub modules. 
+- Select the sub module.
+- Click on Load.
+- In the tkcon window, excute the commands shown in Figure 55.
 
 <p align="center">
   <img src="resources/54.png" width="600">
 </p>
 <p style="text-align:center; font-size:14px; color:#777;">
-  Figure 54: Commands
+  Figure 54: Cell Manager
 </p>
 
-Perform extraction for all the submodules.
+<p align="center">
+  <img src="resources/55.png" width="600">
+</p>
+<p style="text-align:center; font-size:14px; color:#777;">
+  Figure 55: Commands
+</p>
+
+
+Example for Nfet.spice neltist.
+
+<p align="center">
+  <img src="resources/56.png" width="600">
+</p>
+<p style="text-align:center; font-size:14px; color:#777;">
+  Figure 56: Commands
+</p>
+
+Perform extraction for all the submodules and top cell.
 
 
 # Lab Exercise
