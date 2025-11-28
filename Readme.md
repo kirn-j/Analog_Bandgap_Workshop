@@ -1135,7 +1135,7 @@ The layout of the submodules is shown below.
   Figure 52: Top Cell
 </p>
 
-Use the following commands to exract the paracitics:
+Steps to perform extraction for individual components:
 
 <p align="center">
   <img src="resources/53.png" width="600">
