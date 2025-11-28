@@ -1097,6 +1097,8 @@ Observing the vref curver in yellow, it can be seen that 1.1us is taken for it t
 
 # Layout Design
 
+The layout of the submodules is shown below.
+
 ## Resistor bank
 
 <p align="center">
@@ -1153,3 +1155,8 @@ Example for Nfet.spice
 </p>
 
 Perform extraction for all the submodules.
+
+
+# Lab Exercise
+
+1. https://github.com/vsdip/vsd-bandgap/
